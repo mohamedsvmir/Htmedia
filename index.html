@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HT.Media</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <img src="logo.png" alt="HT.Media Logo" class="logo">
+            </header>
+            
+            
+            
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    <nav class="sidebar" id="sidebar">
+        <button class="close-btn" onclick="toggleMenu()">×</button>
+        <a href="#home" data-en="Home" data-ar="الرئيسية">Home</a>
+        <a href="#services" data-en="Services" data-ar="الخدمات">Services</a>
+        <a href="#our-work" data-en="Our Work" data-ar="أعمالنا">Our Work</a>
+        <a href="#contact" data-en="Contact" data-ar="تواصل معنا">Contact</a>
+        <a href="pricing.html" data-en="Pricing" data-ar="الأسعار">Pricing</a>
+        <a href="booking.html" data-en="Booking" data-ar="الحجز">Booking</a>
+        <button class="lang-btn" id="lang-toggle" onclick="toggleLanguage()">EN</button>
+    </nav>
+<section id="home">
+    <div class="hero">
+        <video autoplay muted loop class="background-video">
+            <source src="Perfect_couple_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>HT.Media</h1>
+            <p data-en="Professional Videography & Media Production" data-ar="تصوير احترافي وإنتاج إعلامي">
+                Professional Videography & Media Production
+            </p>
+        </div>
+    </div>
+</section>
+    
+    <section id="services" class="services">
+        <h2 data-en="Our Services" data-ar="خدماتنا">Our Services</h2>
+        <div class="service-box">
+            <h3 data-en="Event Coverage" data-ar="تغطية الفعاليات">Event Coverage</h3>
+            <p data-en="Professional filming for corporate and public events."
+               data-ar="تصوير احترافي للفعاليات العامة والخاصة.">
+                Professional filming for corporate and public events.
+            </p>
+        </div>
+        <div class="service-box">
+            <h3 data-en="Advertising Production" data-ar="تصوير الإعلانات">Advertising Production</h3>
+            <p data-en="High-quality promotional videos for businesses and brands."
+               data-ar="إنتاج فيديوهات ترويجية عالية الجودة للشركات والعلامات التجارية.">
+                High-quality promotional videos for businesses and brands.
+            </p>
+        </div>
+        <div class="service-box">
+            <h3 data-en="Product Photography" data-ar="تصوير المنتجات">Product Photography</h3>
+            <p data-en="Professional product photography for e-commerce and marketing."
+               data-ar="تصوير احترافي للمنتجات لأغراض التجارة الإلكترونية والتسويق.">
+                Professional product photography for e-commerce and marketing.
+            </p>
+        </div>
+        <div class="service-box">
+            <h3 data-en="Wedding Filming" data-ar="تصوير الأفراح">Wedding Filming</h3>
+            <p data-en="Capturing the most beautiful wedding moments with cinematic quality."
+               data-ar="تصوير لحظات الزفاف بأعلى جودة سينمائية.">
+                Capturing the most beautiful wedding moments with cinematic quality.
+            </p>
+        </div>
+        <div class="service-box">
+            <h3 data-en="Party Coverage" data-ar="تصوير الحفلات">Party Coverage</h3>
+            <p data-en="Creating unforgettable memories with professional party videography."
+               data-ar="إنشاء ذكريات لا تُنسى مع تصوير احترافي للحفلات.">
+                Creating unforgettable memories with professional party videography.
+            </p>
+        </div>
+    </section>
+
+    <section id="our-work" class="our-work">
+        <h2 data-en="Our Work" data-ar="أعمالنا">Our Work</h2>
+        <div class="work-container">
+            <div class="work-box">
+                <h3 data-en="Parties" data-ar="الحفلات">Parties</h3>
+                <video controls>
+                    <source src="Tamer_hosny.mp4" type="video/mp4">
+                </video>
+                <video controls>
+                  <source src="Ramy_sabry.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="work-box">
+                <h3 data-en="Weddings" data-ar="الأفراح">Weddings</h3>
+                <video controls>
+                    <source src="Love_ laughter.mp4" type="video/mp4">
+                </video>
+                <video controls>
+                  <source src="sapry&rahma.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+<section id="contact" class="contact">
+    <h2 data-en="Contact Us" data-ar="تواصل معنا">Contact Us</h2>
+    <div class="contact-info">
+        <p>
+            <i class="fas fa-phone-alt"></i> 
+            <strong data-en="Phone:" data-ar="رقم الهاتف:"></strong> 
+            <a href="tel:+201002036713">+201002036713</a>
+        </p>
+        <p>
+            <i class="fab fa-whatsapp"></i> 
+            <strong data-en="WhatsApp:" data-ar="واتساب:"></strong> 
+            <a href="https://wa.me/+201002036713" target="_blank">+201002036713</a>
+        </p>
+        <p>
+            <i class="fas fa-envelope"></i> 
+            <strong data-en="Email:" data-ar="البريد الإلكتروني:"></strong> 
+            <a href="htadsofficial@gmail.com">htadsofficial@gmail.com</a>
+        </p>
+        <p>
+            <i class="fab fa-facebook"></i> 
+            <strong data-en="Facebook:" data-ar="فيسبوك:"></strong> 
+            <a href="https://www.facebook.com/share/1B4EAu46hd/" target="_blank">HT Media</a>
+        </p>
+        <p>
+            <i class="fab fa-instagram"></i> 
+            <strong data-en="Instagram:" data-ar="إنستجرام:"></strong> 
+            <a href="https://www.instagram.com/ht.media.eg?igsh=emxqanp6dXV2bnBt" target="_blank">@ht.media.eg</a>
+        </p>
+    </div>
+</section>
+<a href="https://wa.me/+201002036713" class="whatsapp-icon" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
+</body>
+</html>
